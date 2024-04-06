@@ -7,6 +7,16 @@
   padding: 0;
 }
 
+.icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -315,20 +325,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
