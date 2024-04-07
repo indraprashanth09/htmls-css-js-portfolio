@@ -409,30 +409,12 @@ article .icon {
   flex-direction: column;
 }
 
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-}
 
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
+/* Certificate SECTION */
 
-article .icon {
-  cursor: default;
-}
-
-/* PROJECTS SECTION */
-
-#projects {
+#certification {
   position: relative;
+  size-adjust: auto;
 }
 
 .color-container {
@@ -440,18 +422,26 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-.project-img {
+.certification-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
-.project-title {
+.certification-details-container {
+  
+  margin: 0 auto;
+  flex-direction: column;
+  width: 30%; /* Adjust width as needed */
+  height: 250px;
+}
+
+.certification-title {
   margin: 1rem;
   color: black;
 }
 
-.project-btn {
+.certification-btn {
   color: black;
   border-color: rgb(163, 163, 163);
 }
