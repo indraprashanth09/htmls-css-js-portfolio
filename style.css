@@ -428,13 +428,13 @@ article .icon {
   height: 100%;
 }
 
+.certifaction-containers,
 .certification-details-container {
-  
-  margin: 0 auto;
-  flex-direction: column;
-  width: 30%; /* Adjust width as needed */
-  height: 250px;
+  display: flex;
+  width: 25%;
+  margin: auto;
 }
+
 
 .certification-title {
   margin: 1rem;
